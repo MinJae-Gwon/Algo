@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45055546-37ef-46df-b574-dd35014b859d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day05/dfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/graph.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Gwon_pycharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Gwon_pycharm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/ladder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day05/ladder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/ladder.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day05/ladder.txt" afterDir="false" />
-    </list>
+    <list default="true" id="45055546-37ef-46df-b574-dd35014b859d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,12 +310,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550456915587</updated>
       <workItem from="1550708378316" duration="17773000" />
-      <workItem from="1550748155780" duration="4589000" />
+      <workItem from="1550748155780" duration="4721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22362000" />
+    <option name="totallyTimeSpent" value="22494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -335,7 +326,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33493975" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33493975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24698795" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
