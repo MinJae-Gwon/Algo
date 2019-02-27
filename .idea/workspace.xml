@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="45055546-37ef-46df-b574-dd35014b859d" name="Default Changelist" comment="" />
+=======
     <list default="true" id="a3b59620-e457-46a1-bbf1-51e8bb0e3b40" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Day06/order.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Day06/order.txt" afterDir="false" />
@@ -17,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day08/opt_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day08/opt_path.py" afterDir="false" />
     </list>
+>>>>>>> 726f54096719cc54a42e925a54a53cf48561f6ec
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,16 +400,48 @@
       <created>1550794466034</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1550456915587</updated>
+      <workItem from="1550708378316" duration="17773000" />
+      <workItem from="1550748155780" duration="4721000" />
+=======
       <updated>1550794466034</updated>
       <workItem from="1550794472596" duration="22869000" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 726f54096719cc54a42e925a54a53cf48561f6ec
+=======
+      <workItem from="1551052956825" duration="22433000" />
+>>>>>>> 7627e68a9cf2203698bd0b2ce95f80bae9e369ae
+=======
       <workItem from="1551052956825" duration="22680000" />
       <workItem from="1551139539122" duration="20054000" />
+<<<<<<< HEAD
       <workItem from="1551226767005" duration="24703000" />
+=======
+>>>>>>> 4d9590549e001a7f97f6803630a307570989d3f2
+>>>>>>> 9afd489e632b9dd6a98fdfe6f011ff95da55f592
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="90306000" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="22494000" />
+=======
+    <option name="totallyTimeSpent" value="22869000" />
+>>>>>>> 726f54096719cc54a42e925a54a53cf48561f6ec
+=======
+    <option name="totallyTimeSpent" value="45302000" />
+>>>>>>> 7627e68a9cf2203698bd0b2ce95f80bae9e369ae
+=======
+    <option name="totallyTimeSpent" value="65603000" />
+>>>>>>> 4d9590549e001a7f97f6803630a307570989d3f2
+>>>>>>> 9afd489e632b9dd6a98fdfe6f011ff95da55f592
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -415,8 +451,28 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70255864" weight="0.3394794" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.29744136" side_tool="true" weight="0.3394794" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33493975" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24698795" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989059" visible="true" weight="0.19934283" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5010941" side_tool="true" visible="true" weight="0.19934283" />
+>>>>>>> 726f54096719cc54a42e925a54a53cf48561f6ec
+=======
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8678038" weight="0.862256" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.13219616" side_tool="true" visible="true" weight="0.23861171" />
+>>>>>>> 7627e68a9cf2203698bd0b2ce95f80bae9e369ae
+=======
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5378465" weight="0.5780911" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.46215352" side_tool="true" weight="0.5780911" />
+>>>>>>> 4d9590549e001a7f97f6803630a307570989d3f2
+>>>>>>> 9afd489e632b9dd6a98fdfe6f011ff95da55f592
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
