@@ -25,7 +25,7 @@ for time in range(10):
                 mymap[int(node[0])][2] = int(node[ele])
             elif ele==0:
                 mymap[int(node[0])][0] = int(node[ele])
-
+    print(mymap)
     inorder(1)
     print('#{0} {1}'.format(time+1, ans))
     ans=''

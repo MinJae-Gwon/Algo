@@ -4,15 +4,16 @@ sys.stdin = open('valid_calc.txt','r')
 ans = 1
 def preorder(T):
     global ans
-    if mymap[T][1] == '+' or mymap[T][1] =='-' or mymap[T][1] =='/' or mymap[T][1] =='*':
-        if int(mymap[T][2])==0 or int(mymap[T][3])==0 :
-            ans = 0
-            return
-    preorder(mymap[T][1])
-    preorder(mymap[T][2])
+    if T:
+        if mymap[T][1] == '+' or mymap[T][1] =='-' or mymap[T][1] =='/' or mymap[T][1] =='*':
+            if int(mymap[T][2])==0 or int(mymap[T][3])==0 :
+                ans = 0
+                return
+        preorder(mymap[T][2])
+        preorder(mymap[T][3])
 
 
-for time in range(2):
+for time in range(10):
     N = int(input())
     mymap = [[0]*5 for _ in range(N+1)]
 
@@ -30,5 +31,5 @@ for time in range(2):
                 mymap[int(node[3])][4] = int(node[0])
     print(mymap)
     preorder(1)
-    print(ans)
-    ans=0
+    print('#{0} {1}'.format(time+1,ans))
+    ans=1
