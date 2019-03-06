@@ -41,3 +41,4 @@ for time in range(T):
     for ele in data:
         ele = ''.join(ele)
         print(ele)
+

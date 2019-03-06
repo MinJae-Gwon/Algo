@@ -18,8 +18,6 @@ def GetSome(sofar):
             GetSome(sofar+next)
             visited[next]=False
 
-
-
 B = int(input())
 N = int(input())
 A = list(map(int,input().split()))
