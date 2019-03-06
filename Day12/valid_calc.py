@@ -29,7 +29,7 @@ for time in range(10):
             elif ele == 3:
                 mymap[int(node[0])][3] = int(node[3])
                 mymap[int(node[3])][4] = int(node[0])
-    print(mymap)
+
     preorder(1)
     print('#{0} {1}'.format(time+1,ans))
     ans=1
