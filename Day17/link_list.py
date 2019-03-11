@@ -46,12 +46,7 @@ enqueue(3)
 delete(2)
 enqueue(2)
 print(head.link.data)
-# while True:
-#     print(p.data)
-#     p = p.link
-#     if p.link == None:
-#         print(p.data)
-#         break
+
 
 
 # node1 = Node(1)

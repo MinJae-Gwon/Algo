@@ -18,7 +18,7 @@ while True:
     elif l[mid]==target:
         print(mid)
         break
-    if start > end:
+    if start >= end:
         print('NoResult')
         break
 
