@@ -35,13 +35,9 @@ def delete(target):
     p.link = p.link.link
 
 enqueue(1)
-print('---')
 enqueue(5)
-print('---')
 enqueue(2)
-print('---')
 enqueue(4)
-print('---')
 enqueue(3)
 delete(2)
 enqueue(2)
