@@ -5,7 +5,7 @@ sys.stdin = open('subset.txt','r')
 l=list(map(int,input().split()))
 
 n = len(l)
-zero = 0
+
 
 # i = (1<<5) = 32 = 1 0 0 0 0 0
 
@@ -36,7 +36,7 @@ zero = 0
 for i in range(1<<n):
     sum=0
     zero = 0
-    temp=[]
+    
     for j in range(n):
         if i & (1 <<j):
             sum+=l[j]

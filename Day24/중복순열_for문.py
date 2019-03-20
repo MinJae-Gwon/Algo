@@ -3,5 +3,5 @@ a = 4
 b = 2
 
 for i1 in range(1,a+1):
-    for i2 in range(i1,a+1):
-        print(i1,i2)
+    for i2 in range(1,a+1):
+        print(i1,i2) 
