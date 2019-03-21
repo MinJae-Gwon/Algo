@@ -1,8 +1,6 @@
-
 data= [1,2,3,4,5]
 res=[0]*3
 visited=[0]*5
-
 
 def combi(deep):
     global res   
@@ -18,7 +16,6 @@ def combi(deep):
             res[deep] = data[i]
             combi(deep+1)
             visited[i] = 0
-
 combi(0)
 
 

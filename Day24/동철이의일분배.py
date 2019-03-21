@@ -1,7 +1,6 @@
 import sys
 sys.stdin = open('동철이의일분배.txt','r')
 
-
 def combo(deep, sofar):
     global poten,N, max_poten
     if sofar <= max_poten:
