@@ -45,8 +45,6 @@ def player2_jin(l):
             player2_is_jin = True
             return True
 
-
-
 T = int(input())
 for time in range(T):
     data = [ele for ele in map(int,input().split())]

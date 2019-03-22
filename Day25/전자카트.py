@@ -2,7 +2,6 @@
 import sys
 sys.stdin = open('input.txt','r')
 
-
 def pathfinder(here_y,deep,sofar):
     global min_elec
     if sofar >= min_elec:
