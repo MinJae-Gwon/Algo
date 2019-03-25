@@ -24,7 +24,7 @@ for rows in range(N):
     data.append(row)
 
 res=[0]*3
-GetSome(0,0,9)
+GetSome(0,0,N)
 
 for ans in res:
     print(ans)

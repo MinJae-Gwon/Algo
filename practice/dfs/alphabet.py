@@ -17,8 +17,6 @@ def pathfinder(here_y, here_x, sofar):
         if IsSafe(next_y,next_x) and data[next_y][next_x] not in visited:
 
 
-
-
 R,C = map(int,input().split())
 data = []
 for rows in range(R):
