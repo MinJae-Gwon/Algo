@@ -25,12 +25,6 @@ def quick(A,l,r):
     quick(A,i+1,r)
 
 
-
-
-
-
-
-
 T = int(input())
 for time in range(T):
     data = list(map(int,input().split()))

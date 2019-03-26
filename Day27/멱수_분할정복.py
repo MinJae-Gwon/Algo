@@ -4,7 +4,6 @@ def power1(a,b):
                 res*=a
         return res
 
-
 def power2(a,b):
     if b==0: return 1
     elif b==1: return a
