@@ -16,9 +16,13 @@ def GetSome(in_start, in_end, post_start, post_end):
     in_root = in_order.index(root)
 
     howmanyleft = in_root - in_start
-
-    GetSome(in_start, in_root-1, post_start, post_start+howmanyleft-1)
-    GetSome(in_root+1, in_end, post_start+howmanyleft, post_end-1)
+    # howmany 사용
+    # GetSome(in_start, in_root-1, post_start, post_start+howmanyleft-1)
+    # GetSome(in_root+1, in_end, post_start+howmanyleft, post_end-1)
+    
+    # in_root 사용
+    GetSome(in_start,in_root-1,post_start,in_root-1)
+    GetSome(in_root+1,in_end,in_root,post_end-1)
 
 N=int(input())
 in_order = list(map(int,input().split()))
