@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('최소비용.txt','r')
 
+# 시간초과 오짐
 def IsSafe(y,x):
     if y>=0 and y<N and x>=0 and x<N:
         return True
