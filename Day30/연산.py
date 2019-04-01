@@ -1,4 +1,5 @@
 import sys
+from collections import deque
 sys.stdin = open('연산.txt','r')
 
 def bfs(sofar):
@@ -6,7 +7,7 @@ def bfs(sofar):
     Q.append(sofar)
 
     while Q:
-        here = Q.pop(0)
+        here = Q.popleft()
         if here[0]==target_num:
             if here[1] < min_calc_time:
                 min_calc_time = here[1]
@@ -33,7 +34,7 @@ T = int(input())
 for time in range(T):
     start_num,target_num = map(int,input().split())
     min_calc_time = 987654321
-    Q=[]
+    Q=deque()
 
     bfs((start_num,0))
     # dfs(0,start_num)
