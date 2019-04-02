@@ -16,4 +16,4 @@ for time in range(T):
         if len(temp)==N and sum(temp)==K:
             count+=1
 
-    print(f'#{time+1} {count}')
+    # print(f'#{time+1} {count}')
