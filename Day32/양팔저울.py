@@ -40,6 +40,9 @@ for time in range(T):
         visited[i] = 1
         DFS(chu[i], 0, 1)
     print('#{0} {1}'.format(time+1,ans))
+
+
+
 # T = int(input())
 # for time in range(T):
 #
