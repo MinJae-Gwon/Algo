@@ -19,7 +19,6 @@ def calc(l):
 
     return sofar
 
-
 def make_equation(sign,number):
     equation = [0]*(2*N-1)
 
@@ -32,7 +31,6 @@ def make_equation(sign,number):
 
     res=calc(equation)
     return res
-
 
 def permu(c):
     global temp,max_ans,min_ans
@@ -53,7 +51,6 @@ def permu(c):
             temp[c]=signs[i]
             permu(c+1)
             sign_fuel[i]=sign_fuel[i]+1
-
 
 T = int(input())
 for time in range(T):
