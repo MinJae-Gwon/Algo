@@ -5,7 +5,6 @@ def IsSafe(y,x):
     if x>=0 and y>=0 and x<N and y<N:
         return True
 
-
 def get_stone(info):
     y = info[0]
     x = info[1]
@@ -19,28 +18,37 @@ def get_stone(info):
     for dir in range(8):
         n_y = y + dy[dir]
         n_x = x + dx[dir]
-        if IsSafe(n_y,n_x) and data[n_y][n_x]!=0 and data[y][x]!=data[n_y][n_x]:
-            same=1
-            while True:
+        while IsSafe(n_y,n_x) and data[n_y][n_x]!=0 and data[y][x]!=data[n_y][n_x]:
+            n_y = n_y + dy[dir]
+            n_x = n_x + dx[dir]
+
+        if IsSafe(n_y, n_x) and data[y][x]==data[n_y][n_x]:
+            n_y = y + dy[dir]
+            n_x = x + dx[dir]
+            while IsSafe(n_y,n_x) and data[n_y][n_x]!=0 and data[y][x]!=data[n_y][n_x]:
+                data[n_y][n_x] = stone
                 n_y = n_y + dy[dir]
                 n_x = n_x + dx[dir]
-                if not IsSafe(n_y,n_x):
-                    break
-                if data[y][x] == data[n_y][n_x]:
-                    while True:
-                        if same ==0:
-                            break
-                        n_y = n_y - dy[dir]
-                        n_x = n_x - dx[dir]
 
-                        data[n_y][n_x] = stone
-
-                        same-=1
-
-                if data[y][x] != data[n_y][n_x]:
-                    same+=1
-
-
+            # same=1
+            # while True:
+            #     n_y = n_y + dy[dir]
+            #     n_x = n_x + dx[dir]
+            #     if not IsSafe(n_y,n_x):
+            #         break
+            #     if data[y][x] == data[n_y][n_x]:
+            #         while True:
+            #             if same ==0:
+            #                 break
+            #             n_y = n_y - dy[dir]
+            #             n_x = n_x - dx[dir]
+            #
+            #             data[n_y][n_x] = stone
+            #
+            #             same-=1
+            #
+            #     if data[y][x] != data[n_y][n_x]:
+            #         same+=1
 
 
 T = int(input())
@@ -53,7 +61,7 @@ for time in range(T):
     data[N//2][N//2-1] = 1
     data[N//2-1][N//2-1] = 2
     data[N//2][N//2] = 2
-    print(data)
+
     info = []
     for infos in range(M):
         y,x,stone = map(int,input().split())

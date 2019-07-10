@@ -1,6 +1,7 @@
 import sys
-
 sys.stdin = open('cross.txt','r')
+
+# 돌면서 십자 방향에 있는 값과 중앙값 차이의 절대값의 종합
 
 Data = [[0 for _ in range(5)] for _ in range(5)]
 

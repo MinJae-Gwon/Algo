@@ -1,3 +1,4 @@
+#1
 import sys
 sys.stdin = open('work_seq.txt', 'r')
 
@@ -40,6 +41,29 @@ for time in range(10):
     print(f'#{time+1} {ans}')
 
 
-
+#2
+# for time in range(10):
+#     V,E = map(int,input().split())
+#     l = list(map(int,input().split()))
+#     data =[[0 for _ in range(V+1)] for _ in range(V+1)]
+#     degree = [-1]+[0] * (V)
+#     for idx in range(E):
+#         from_point = l[2*idx]
+#         to_point = l[2*idx+1]
+#         data[to_point][from_point] = 1
+#         degree[to_point]+=1
+#     ans=[]
+#     while len(ans)!=V:
+#         for ele in range(len(degree)):
+#             if degree[ele] == 0:
+#                 ans.append(ele)
+#                 degree[ele] =-1
+#                 for child in range(1,V+1):
+#                     if data[child][ele] == 1:
+#                         data[child][ele] = -1
+#                         degree[child] -=1
+#     ans = [str(comp) for comp in ans]
+#     ans = ' '.join(ans)
+#     print(f'#{time+1} {ans}')
 
 
