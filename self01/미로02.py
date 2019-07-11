@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('미로02.txt','r')
 
+# swea 1226번
 def IsSafe(x,y):
     if x>=0 and y>=0 and x<16 and y<16:
         return True
