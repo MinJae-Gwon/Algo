@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0bf1877-bc48-493e-8cfb-0e7351943794" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/baekjoon/미로.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/미로.py" afterDir="false" />
-    </list>
+    <list default="true" id="c0bf1877-bc48-493e-8cfb-0e7351943794" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +10,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/미로.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
@@ -24,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/미로.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baekjoon/안전구역.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="287">
+              <caret line="50" column="21" lean-forward="true" selection-end-line="63" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baekjoon/안전구역.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -96,6 +103,8 @@
         <option value="$PROJECT_DIR$/baekjoon/빙산.py" />
         <option value="$PROJECT_DIR$/baekjoon/미로.txt" />
         <option value="$PROJECT_DIR$/baekjoon/미로.py" />
+        <option value="$PROJECT_DIR$/baekjoon/안전구역.txt" />
+        <option value="$PROJECT_DIR$/baekjoon/안전구역.py" />
       </list>
     </option>
   </component>
@@ -183,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.미로 (1)">
+  <component name="RunManager" selected="Python.안전구역">
     <configuration name="미로 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,7 +256,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3143_빠른문자열" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="안전구역" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,11 +264,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/3143_빠른문자열.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/안전구역.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -459,11 +468,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.안전구역" />
         <item itemvalue="Python.미로 (1)" />
         <item itemvalue="Python.빙산" />
         <item itemvalue="Python.미로" />
         <item itemvalue="Python.6959_이상한뎃셈" />
-        <item itemvalue="Python.3143_빠른문자열" />
       </list>
     </recent_temporary>
   </component>
@@ -584,6 +593,11 @@
           <line>9</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baekjoon/안전구역.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -632,20 +646,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/swea/미로02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/보급로.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day27/트리의순회.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -941,6 +941,20 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/안전구역.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/안전구역.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="50" column="21" lean-forward="true" selection-end-line="63" selection-end-column="24" />
         </state>
       </provider>
     </entry>
